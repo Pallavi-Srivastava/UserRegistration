@@ -1,5 +1,5 @@
 #!/bin/bash  -x
-echo "Enter word ending with thing"
+echo "Enter LastName:"
 read Lastname
 rejax=^[[:upper:]]{1}[[:lower:]]{2}[[:lower:]]+$
 if [[ $Lastname =~ $rejax ]]
