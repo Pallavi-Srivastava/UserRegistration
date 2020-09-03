@@ -1,7 +1,7 @@
 #!/bin/bash  -x
 echo "Enter Password:"
 read Password
-rejax=^[A-Za-z]{8}[A-Za-z]*
+rejax=^[a-zA-Z0-9@#!]{8}[a-zA-z0-9@#!]*
 if [[ $Password =~ $rejax ]]
 then
         echo Valid Password
